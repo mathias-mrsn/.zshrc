@@ -41,5 +41,10 @@ return {
 			mods = "CMD",
 			action = wezterm.action.ToggleFullScreen,
 		},
+		{
+			key = "H",
+			mods = "CTRL",
+			action = wezterm.action.DisableDefaultAssignment,
+		},
 	},
 }

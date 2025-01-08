@@ -10,7 +10,7 @@ opt.relativenumber = true
 
 opt.cursorline = true
 opt.cursorcolumn = false
-opt.colorcolumn = "80"
+opt.colorcolumn = "101"
 opt.signcolumn = "yes:1"
 opt.showmode = false
 
@@ -26,11 +26,11 @@ opt.scrolloff = 8
 
 opt.list = true
 opt.listchars = {
-  tab = "▸ ",
-  trail = "·",
-  precedes = "←",
-  extends = "→",
-  nbsp = "+",
+	tab = "▸ ",
+	trail = "·",
+	precedes = "←",
+	extends = "→",
+	nbsp = "+",
 }
 
 opt.fillchars = { eob = " ", diff = "" }
@@ -48,14 +48,14 @@ opt.showtabline = 1
 
 opt.wrap = false
 
-opt.whichwrap:append {
-  ["<"] = true,
-  [">"] = true,
-  ["["] = true,
-  ["]"] = true,
-  h = true,
-  l = true,
-}
+opt.whichwrap:append({
+	["<"] = true,
+	[">"] = true,
+	["["] = true,
+	["]"] = true,
+	h = true,
+	l = true,
+})
 
 opt.autoread = true
 opt.autowrite = true

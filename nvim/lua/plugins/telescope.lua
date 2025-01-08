@@ -23,6 +23,11 @@ return {
 		})
 
 		telescope.setup({
+			pickers = {
+				find_files = {
+					theme = "ivy",
+				},
+			},
 			defaults = {
 				path_display = { "smart" },
 				mappings = {
